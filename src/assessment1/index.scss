@@ -1,0 +1,80 @@
+.main {
+    box-sizing: border-box;
+    width: 400px;
+    border: 1px solid gray;
+    color: white;
+    .main_header {
+        padding: 10px;
+        background-color: rgb(28,28,28);
+        height: 30px ;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: 2px solid rgb(57, 57, 57);
+        div {
+            padding: 5px;
+            background-color: rgb(6, 6, 6);
+            border: 2px solid rgb(57, 57, 57); 
+            border-radius: 6px;
+            p {
+                margin-top: 0px;
+                margin-bottom: 0px;
+                color: white;
+            }
+        }
+        h3 {
+            margin: 0px;
+            color: white;
+        }
+    }
+    .main_content {
+        background-image: url('./../test1_assets/background.png');
+        padding-bottom: 10px;
+        
+        .main_content_picture {
+            margin: 15px 10% 15px;
+            border: 3px solid white;
+           
+        }
+        .main_content_address {
+            margin-left: 10%;
+            h2 {
+                margin: 0px;
+            }
+            .main_content_address_content {
+                margin-top: 5px;
+                margin-bottom: 5px;
+                color: rgb(159, 188, 215);
+            }
+            .main_content_address_underline {
+                margin-top: 5px;
+                margin-bottom: 5px;
+                text-decoration: underline;
+                text-decoration-color:rgb(159, 188, 215);
+            }
+        }
+        .main_content_lists {
+            margin: 10px 10% 10px 10%;
+            border: 1px solid transparent;
+            // background: linear-gradient(0deg,rgb(230, 234, 237), rgb(194, 207, 219));
+            border-radius: 15px;
+            .main_content_lists_item {
+                background: linear-gradient(0deg,rgb(230, 234, 237), rgb(194, 207, 219));
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                h2 {
+                    color: rgb(5, 24, 41);
+                    margin-left: 5px;
+                    padding-left: 10px;
+                }
+                img {
+                    margin-right: 5px;
+                    padding-right: 10px;
+                    height: 24px;
+                }
+            }
+        } 
+    }
+}
+

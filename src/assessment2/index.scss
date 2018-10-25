@@ -1,0 +1,52 @@
+.checkform {
+    display: flex;
+    .checkbox {
+        margin-left: 20px;
+        width: 15%;
+        border: 3px solid gray;
+        .checkbox_title {
+            display: flex;
+            align-items: center;
+            padding: 5px;
+            background-color: gray;
+            h3 {
+                margin: 0px;
+            }
+        }
+        .checkbox_side {
+            margin-top: 10px;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-around;
+            p {
+                margin: 0px;
+            }
+            select {
+                border: solid 1px #000;
+                appearance:none;
+                -moz-appearance:none;
+                -webkit-appearance:none;
+                padding: 2px;
+                padding-right: 25px;
+                background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll 
+                            right center transparent;
+            }
+        }
+    }
+}
+
+.submit {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 60px;
+    height: 25px;
+    // line-height: 15px;
+    text-align: center;
+    border: 1px solid gray;
+    background-color: gray;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.checkbox_disabled {
+    background-color: gray;
+}
